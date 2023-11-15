@@ -16,7 +16,7 @@ float time_passed = ((end_time - start) / 1000000.0);
 float rpm_val = (hall_count / time_passed) * 60.0;
 
 */
-
+/*
 
 void oldprintVal() {
   Serial.begin(115200);
@@ -33,3 +33,4 @@ void oldprintVal() {
   Serial.println(" RPM");
   delay(5); //delay in between reads for stability
 }
+*/
