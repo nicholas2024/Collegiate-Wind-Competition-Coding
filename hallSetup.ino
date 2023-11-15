@@ -11,8 +11,8 @@ void hallSetup() {
   int hall_pin = 14;
   Serial.begin(115200);
   pinMode(hall_pin, INPUT);// make the hall pin an input
-  pinMode(7,OUTPUT);
-  pinMode(8, OUTPUT);
-  digitalWrite(7, LOW); // Initialize pin 7 as Low
-  digitalWrite(8, LOW); // Initialize pin 8 as Low
+  //pinMode(7,OUTPUT);
+  //pinMode(8, OUTPUT);
+  //digitalWrite(7, LOW); // Initialize pin 7 as Low
+  //digitalWrite(8, LOW); // Initialize pin 8 as Low
 }
